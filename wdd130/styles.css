@@ -1,0 +1,71 @@
+/* Styles for the main element */
+main {
+    width: 75%; /* Adjusted width */
+    margin: 0 auto;
+    background-color: #e0f7fa; /* Light cyan background */
+    padding: 20px; /* Add padding inside main */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+main:hover {
+    background-color: #b2ebf2; /* Background color change on hover */
+}
+
+/* Styles for the aside element */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #00796b; /* Dark teal border */
+    padding: 15px;
+    background-color: #ffffff; /* White background */
+    color: #004d40; /* Dark teal text */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* A more pronounced shadow */
+}
+
+/* Styles for the image inside the aside element */
+aside img {
+    width: 200px;
+    height: auto; /* Ensure aspect ratio is maintained */
+    border-radius: 4px; /* Add rounded corners to the image */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+aside img:hover {
+    transform: scale(1.05); /* Slight zoom when hovered */
+}
+
+/* Specific styles for images inside the main element */
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid #004d40; /* Dark teal border */
+}
+
+/* Styles for all paragraph elements (remove padding) */
+p {
+    padding: 0;
+    line-height: 1.6; /* Improve readability with line height */
+}
+
+/* Styles for the footer element */
+footer {
+    margin-top: 30px;
+    border-top: 2px solid #00796b; /* Dark teal top border */
+    text-align: center;
+    color: #004d40; /* Dark teal text color */
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Add a smooth hover effect for the entire body background */
+body {
+    transition: background-color 0.5s ease;
+}
+
+body:hover {
+    background-color: #f1f8e9; /* Change body background on hover */
+}
